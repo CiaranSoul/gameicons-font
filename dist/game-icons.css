@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "game-icons";
-	src: url("https://ciaransoul.github.io/gameicons-font/dist/game-icons.eot?817af6e52c83163eb30ece54d9f7d16d?#iefix") format("embedded-opentype"),
-   url("https://ciaransoul.github.io/gameicons-font/dist/game-icons.woff?817af6e52c83163eb30ece54d9f7d16d") format("woff"),
-   url("https://ciaransoul.github.io/gameicons-font/dist/game-icons.ttf?817af6e52c83163eb30ece54d9f7d16d") format("truetype");
+src: url("game-icons.eot?817af6e52c83163eb30ece54d9f7d16d?#iefix") format("embedded-opentype"),
+url("game-icons.woff?817af6e52c83163eb30ece54d9f7d16d") format("woff"),
+url("game-icons.ttf?817af6e52c83163eb30ece54d9f7d16d") format("truetype");
 }
 
 .game-icon {
