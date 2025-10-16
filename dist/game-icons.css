@@ -5,9 +5,16 @@ url("https://dl.dropbox.com/s/9zoe2raly7s7bwn/game-icons.woff") format("woff"),
 url("https://dl.dropbox.com/s/b280pqmo4o8asou/game-icons.ttf") format("truetype"),
 	url('./game-icons.svg#game-icons') format('svg');
 }
-
-.game-icon {
-	line-height: 1;
+.game-icon:before {
+	font-family: "game-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
 }
 
 .game-icon:before {
